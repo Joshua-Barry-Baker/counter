@@ -5,23 +5,20 @@ function CounterSub() {
     const [count, setCount] = useState(0);
 
     useEffect(() => {
-        document.title = `You clicked ${count} times`;
+        document.title = `Current count: ${count}`;
     });
 return (
     <article>
         <h1>The Counter</h1>
-        <div id="counter">
+            <p id="count">{count}</p>
             <button id="counterSub" onClick={() => setCount(count - 1)}>
                 -
             </button>
-            <div id="counterDisplay">{count}</div>
             <button id="counterAdd" onClick={() => setCount(count + 1)}>
                 +
             </button>
+            <br />
             <button id="counterReset" onClick={() => setCount(count - count)}>Reset to 0</button>
-        </div>
     </article>
     )
-}
-
-)
+})

@@ -17,3 +17,12 @@ article{
     background-color: darkslategray;
     color: whitesmoke;
 }
+#counterSub{
+    padding: 2px 6px;
+}
+#counterAdd {
+    padding: 2px 4px;
+}
+#counterReset {
+    padding: 2px 1px;
+}
