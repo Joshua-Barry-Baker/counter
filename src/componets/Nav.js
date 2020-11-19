@@ -10,7 +10,7 @@ export default function Nav() {
                     <p>This is a test to see if I could make a dropdown with the details and summary tags</p>
                     <details>
                         <summary>H3</summary>
-                        <summary><a href="https://www.google.com" target="_blank">A link to google.com</a></summary>
+                        <summary><a href="https://www.google.com" rel="noreferrer" target="_blank">A link to google.com</a></summary>
                     </details>
                 </details>
             </details>
